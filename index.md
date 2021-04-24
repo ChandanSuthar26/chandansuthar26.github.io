@@ -1,223 +1,37 @@
-<!DOCTYPE html>
-<!--
-    Plain-Academic by Vasilios Mavroudis
-    Released under the  Simplified BSD License/FreeBSD (2-clause) License.
-    https://github.com/mavroudisv/plain-academic
-    Added modifications with a simple CSS, inspired from Andrej Karpathy's implementation
-		https://karpathy.ai/
-		
-		Borrowed certain CSS elements from an earlier template. ©Copyright Kards 2016.
-		Design by http://www.styleshout.com
--->
+## Welcome to GitHub Pages
+Hello there
+You can use the [editor on GitHub](https://github.com/ChandanSuthar26/chandansuthar26.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
-<html lang="en">
-<head>
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-  <title>Nilesh Negi's website</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Nilesh Negi's website">
-  <meta name="keywords" content="website, Nilesh, Negi, cv, work, resume, blog">
-  <meta name="author" content="Nilesh Negi">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./css/all.css">
-  <link rel="stylesheet" href="./css/style.css">
-  
-  <!-- Track site visitors -->
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155121842-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-155121842-1');
-  </script>
+### Markdown
 
-</head>
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
+```markdown
+Syntax highlighted code block
 
-<body>
+# Header 1
+## Header 2
+### Header 3
 
-  <!-- Home -->
-  <div class="container" id="home">
-    
-    <div class="row">
-      <div id="home-about">
-        <h1>Nilesh M Negi</h1>
-        <h2>Systems Engineer | Machine Learning</h2><br/>
-        <div id="home-icon">
-          <a href="mailto:nileshnegi@gmail.com" rel="noopener noreferrer" target="_blank"><i class="fas fa-envelope fa-2x" aria-hidden="true"></i></a>
-          <a href="https://www.linkedin.com/in/nileshnegi/" rel="noopener noreferrer" target="_blank"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a>
-          <a href="https://github.com/nileshnegi" rel="noopener noreferrer" target="_blank"><i class="fab fa-github fa-2x" aria-hidden="true"></i></a>
-          <a href="https://twitter.com/NileshNegi" rel="noopener noreferrer" target="_blank"><i class="fab fa-twitter fa-2x" aria-hidden="true"></i></a>
-          <!-- <a href=""><i class="ai ai-google-scholar ai-xs" aria-hidden="true" style="width:3vmax;"></i></a> -->
-        </div>
-      </div>
-      <div id="home-img">
-        <img src="./photos/profile_photo.jpg" alt="" data-holder-rendered="true"><br/>
-      </div>
-		</div>
+- Bulleted
+- List
 
-  </div>
+1. Numbered
+2. List
 
-  <hr>
+**Bold** and _Italic_ and `Code` text
 
-  <div class="container" id="resume">
+[Link](url) and ![Image](src)
+```
 
-    <div class="row">
-    	<div id="resume-img">
-        <img src="photos/hpe_logo.png" alt="HPE" style="width:40%;"/><br/>
-        Email: <a href="mailto:nilesh.m.negi@hpe.com">nilesh.m.negi@hpe.com</a><br/>
-      </div>
-      <div id="resume-intro">
-				Member of the High Performance Comptuting & Artificial Intelligence team.<br/>
-				Currently working on machine learning benchmarks for training and inference workloads. <br/>
-        Before this, I used to optimize High Performance Computing applications and extrapolate their performance for Petascale and pre-Exascale systems.<br/>
-      </div>
-		</div>
-		
-    <div class="resume-timeline">
-			<div class="timeline-wrap">
-				<div class="timeline-block">
-					<div class="timeline-ico">
-						<i class="fas fa-briefcase"></i>
-					</div>
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-					<div class="timeline-header">
-						<h3>Systems/Software Engineer Vb</h3>
-						<p>January 2020 - Present</p>
-					</div>
+### Jekyll Themes
 
-					<div class="timeline-content">
-						<h4>AI Technologies and Enablement</h4>
-						<p>
-							<ul>
-								<li>Characterization and hyper-parameter optimization for multi-GPU scaling of <a href="https://mlperf.org/" rel="noopener noreferrer" target="_blank">MLPerf</a> training and inference benchmarks.</li>
-								<li>Support machine learning benchmarking requests from customers like Samsung (South Korea), <a href="https://github.com/mila-iqia/training">MILA</a> (Canada), Bank Mandiri (Indonesia), NCHC (Taiwan), University of Granada (Spain), TU Delft (Germany).</li>
-								<li>Speaker at <a href="https://twitter.com/HPE_IN/status/1233634776902291457?s=20">HP-CAST 2020</a>. Presented about HPE's AI group and the Deep Learning Benchmarking Suite.</li>
-							</ul>
-						</p>
-					</div>
-				</div>
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ChandanSuthar26/chandansuthar26.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-				<div class="timeline-block">
-					<div class="timeline-ico">
-						<i class="fas fa-briefcase"></i>
-					</div>
+### Support or Contact
 
-					<div class="timeline-header">
-						<h3>Systems/Software Engineer Vb </h3>
-						<p>May 2018 - December 2019</p>
-					</div>
-
-					<div class="timeline-content">
-						<h4>HPC & AI Performance Engineering</h4>
-						<p>
-							<ul>
-								<li>Worked on HPE's winning proposal for Los Alamos National Laboratory's <a href="https://www.lanl.gov/projects/crossroads/" rel="noopener noreferrer" target="_blank">Crossroads</a>, with detailed analysis and benchmarking of PENNANT, to extrapolate performance for a 150 petaFLOP system.</li>
-								<li>Conducted characterization studies of HPC applications for Request for Proposals (RFPs) from Max Planck (Germany), IDRIS (Paris), ARCHER2 (UK), CSC (Finland), NCI (Australia).</li>
-								<li>Talked about <em>convergence of HPC & AI</em> and HPE's <em>custom deep learning accelerator</em> at the National Workshop on HPCA 2019.</li>
-								<li>Delivered a workshop on <em>Introduction to Deep Learning</em> for 100+ students at NIT Tiruchirappalli's Pragyan 2019.</li>
-							</ul>
-						</p>
-					</div>
-				</div>
-
-				<div class="timeline-block">
-					<div class="timeline-ico">
-						<i class="fas fa-briefcase"></i>
-					</div>
-
-					<div class="timeline-header">
-						<h3>Systems/Software Engineer II</h3>
-						<p>November 2015 - April 2018</p>
-					</div>
-
-					<div class="timeline-content">
-						<h4>HPC Performance Benchmarking</h4>
-						<p>
-							<ul>
-								<li>Worked with GROMACS - molecular dynamics code for biochemical systems and Quantum Espresso - ab-initio quantum chemistry codes for electronic structure calculations.</li>
-								<li>Conducted characterization studies of HPC applications for large Request for Proposals (RFPs) from India's National Supercomputing Mission, Australia's DSTG, Taiwan's NCHC.</li>
-								<li>Led a hands-on workshop on <em>Introduction to High Performance Computing</em> for MPI and OpenMP programming for 50+ undergraduate students at NIT Tiruchirappalli's Pragyan 2018.</li>
-								<li>Showcased HPE’s <a href="https://cio.economictimes.indiatimes.com/news/enterprise-services-and-applications/hpe-intel-launches-coe-to-show-high-performance-computing-as-a-service/55093837" rel="noopener noreferrer" target="_blank">HPC-as-a-Service</a> <em>Centre of Excellence</em> at the IEEE International Conference on HPC (HiPC 2017).</li>
-							</ul>
-						</p>
-					</div>
-				</div>
-			
-			</div>
-		</div>
-		
-		<div class="row">
-    	<div id="resume-img">
-				<img src="photos/hp_logo.svg" alt="Hewlett-Packard" style="width:20%"/>
-			</div>
-			<div id="resume-intro">
-        2015 college graduate hire. Was directly offered a Senior R&D Engineer position on the basis of my undergrad research and background.<br/>
-      </div>
-		</div>
-		<div class="timeline-wrap">
-			<div class="timeline-block">
-				<div class="timeline-ico">
-					<i class="fas fa-briefcase"></i>
-				</div>
-
-				<div class="timeline-header">
-					<h3>Systems/Software Engineer II</h3>
-					<p>August 2015 - October 2015</p>
-				</div>
-
-				<div class="timeline-content">
-					<h4>HPC Performance Benchmarking</h4>
-					<p>
-						<ul>
-							<li>Developed and tested a standalone suite of standard HPC codes and software stack (codename: &quot;Framework&quot;) with Dr. Dave Mullaly.</li>
-							<li>Used this suite to benchmark and compare performance of different HPE servers and reference architectures.</li>
-							<li>Presented a comparative study of HPC application performance on Intel Broadwell and Intel Knights Landing processors at Intel HPC Developer Conference.</li>
-						</ul>
-					</p>
-				</div>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div id="resume-img">
-				<img src="photos/iith_logo.png" alt="IIT Hyderabad" style="width:90%"/><br/>
-				Email: <a href="mailto:ee11b023@iith.ac.in">ee11b023@iith.ac.in</a><br/>
-			</div>
-			<div id="resume-intro">
-				Before HPE, I studied Electrical Engineering at IIT Hyderabad (class of 2015).<br/>
-				The flexible course structure enabled me to explore image processing, embedded systems and micro-electronics, as well as some Computer Science courses.
-			</div>
-		</div>
-		<div class="timeline-wrap">
-			<div class="timeline-block">
-				<div class="timeline-ico">
-					<i class="fas fa-graduation-cap"></i>
-				</div>
-
-				<div class="timeline-header">
-					<h3>Bachelors Degree</h3>
-					<p>August 2011 - May 2015</p>
-				</div>
-
-				<div class="timeline-content">
-					<h4>Bachelor of Technology in Electrical Engineering (Hons.) with a Minor in Computer Science and Engineering</h4>
-					<p>
-						<ul>
-							<li>Undergraduate project on automatic profiling of immune cell migration. A short gist can be found <a href="https://drive.google.com/file/d/1VL1MsiITBF6eEJnXoy8u9KHqjDDR5Azk/view" rel="noopener noreferrer" target="_blank">here</a>.</li>
-							<li>Designed a cost-effective add-on module for existing glucometer devices to read digits displayed on the LCD screen. <a href="https://drive.google.com/file/d/1XMZFIKL9Ml1DxhernKQPNN1WJyVf3D26/view" rel="noopener noreferrer" target="_blank">Slides</a>.</li>
-							<li>Served as an undergraduate teaching assistant under Dr. Ashudeb Dutta and Dr. Amit Acharyya from January 2015 - May 2015.</li>
-						</ul>
-					</p>
-				</div>
-			</div>
-		</div>
-
-  </div>
-
-</body>
-
-</html>
+Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
